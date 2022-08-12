@@ -11,7 +11,7 @@ gh repo clone ordo-one/prototype-library-evolution-client
 cd prototype-library-evolution
 swift build
 xcodebuild -create-xcframework -library .build/arm64-apple-macosx/debug/libPrototypeLibraryEvolution.dylib -output PrototypeLibraryEvolution.xcframework
-cd ../prototype-library-evolution
+cd ../prototype-library-evolution-client
 swift run
 ```
 
