@@ -15,7 +15,7 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "PrototypeLibraryEvolution",
-            path: "../PrototypeLibraryEvolution/PrototypeLibraryEvolution.xcframework"
+            path: "../prototype-library-evolution/PrototypeLibraryEvolution.xcframework"
         )
     ]
 )
